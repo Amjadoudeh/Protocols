@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D08029D929152DB700BB7F74 /* ProtocolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08029D829152DB700BB7F74 /* ProtocolsApp.swift */; };
-		D08029DB29152DB700BB7F74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08029DA29152DB700BB7F74 /* ContentView.swift */; };
+		D08029DB29152DB700BB7F74 /* ProtocolBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08029DA29152DB700BB7F74 /* ProtocolBootCamp.swift */; };
 		D08029DD29152DB900BB7F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08029DC29152DB900BB7F74 /* Assets.xcassets */; };
 		D08029E029152DB900BB7F74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08029DF29152DB900BB7F74 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		D08029D529152DB700BB7F74 /* Protocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protocols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08029D829152DB700BB7F74 /* ProtocolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsApp.swift; sourceTree = "<group>"; };
-		D08029DA29152DB700BB7F74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D08029DA29152DB700BB7F74 /* ProtocolBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBootCamp.swift; sourceTree = "<group>"; };
 		D08029DC29152DB900BB7F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D08029DF29152DB900BB7F74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				D08029D829152DB700BB7F74 /* ProtocolsApp.swift */,
-				D08029DA29152DB700BB7F74 /* ContentView.swift */,
+				D08029DA29152DB700BB7F74 /* ProtocolBootCamp.swift */,
 				D08029DC29152DB900BB7F74 /* Assets.xcassets */,
 				D08029DE29152DB900BB7F74 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08029DB29152DB700BB7F74 /* ContentView.swift in Sources */,
+				D08029DB29152DB700BB7F74 /* ProtocolBootCamp.swift in Sources */,
 				D08029D929152DB700BB7F74 /* ProtocolsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

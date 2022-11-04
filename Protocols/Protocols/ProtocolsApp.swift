@@ -11,7 +11,7 @@ import SwiftUI
 struct ProtocolsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProtocolBootCamp()
         }
     }
 }
