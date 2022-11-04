@@ -11,6 +11,13 @@ struct AlternativeColorTheme: ColorThemeProtocol {
     let tertiarty: Color = .green
 }
 
+struct NewColorTheme: ColorThemeProtocol {
+    var primary: Color = .yellow
+    var secondary: Color = .black
+    var tertiarty: Color = .red
+    
+    
+}
 protocol ColorThemeProtocol {
     /// The Protocols are set of rules or requirements that struct or class need to have
     var primary: Color { get }
@@ -23,7 +30,7 @@ struct ProtocolBootCamp: View {
     // instance
     let colorTheme: ColorThemeProtocol
     var body: some View {
-
+        
         ZStack{
             colorTheme.tertiarty
                 .ignoresSafeArea()
@@ -41,6 +48,6 @@ struct ProtocolBootCamp: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ProtocolBootCamp(colorTheme: DefaultColorTheme())
+        ProtocolBootCamp(colorTheme: NewColorTheme())
     }
 }
